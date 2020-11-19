@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Лавка цветов</title>
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header-body">
+            <a href="#" class="logo">
+               <svg class="icon logo-icon">
+                  <use xlink:href="img/icons.svg#logo"></use>
+               </svg>
+            </a>
+            <div class="header-burger" id="trigger">
+               <span></span>
+            </div>
+            <nav class="header-nav" id="menu">
+               <ul class="header-links">
+                  <li class="header-item"><a href="#catalog" class="header-link">Каталог</a></li>
+                  <li class="header-item"><a href="#shares" class="header-link">Акции</a></li>
+                  <li class="header-item"><a href="#best" class="header-link">Лучшee</a></li>
+                  <li class="header-item"><a href="#we" class="header-link">Мы</a></li>
+               </ul>
+            </nav>
+            <div class="our-phone">+7(980)757-55-75</div>
+            <div class="phone-button-wrapper">
+               <button type="button" class="button button-phone header-button-phone">
+                  <span class="button-text">Заказать звонок</span>
+               </button>
+            </div>
+            <button type="button" class="button button-basket">
+               <svg class="icon button-basket-icon">
+                  <use xlink:href="img/icons.svg#shopping-cart"></use>
+               </svg>
+               <span class="button-basket-text">0 &#8381;</span>
+            </button>
+         </div>
+      </header>
+   </div>
+   <!-- header -->
+   <section class="first-block">
+      <div class="first-block-content">
+         <h1 class="first-block-title">Авторские букеты для себя и любимых</h1>
+         <p class="first-block-subtitle">Всегда свежие цветы</p>
+         <button type="button" class="watch-catalog">Смотреть каталог</button>
+      </div>
+      <!-- Swiper -->
+      <div class="swiper-container first-block-slider">
+         <div class="swiper-wrapper flower-cards">
+            <div class="swiper-slide flower-card">
+               <div class="flower-img"><img src="img/flower-img-1.png" alt="flower"></div>
+               <div class="first-block-card-content">
+                  <h3 class="first-block-card-name">Букет "Воздушный"</h3>
+                  <p class="first-block-card-price">от 2599&#8381;</p>
+               </div>
+            </div>
+            <div class="swiper-slide flower-card">
+               <div class="flower-img"><img src="img/flower-img-1.png" alt="flower"></div>
+               <div class="first-block-card-content">
+                  <h3 class="first-block-card-name">Букет "Воздушный"</h3>
+                  <p class="first-block-card-price">от 2599&#8381;</p>
+               </div>
+            </div>
+            <div class="swiper-slide flower-card">
+               <div class="flower-img"><img src="img/flower-img-1.png" alt="flower"></div>
+               <div class="first-block-card-content">
+                  <h3 class="first-block-card-name">Букет "Воздушный"</h3>
+                  <p class="first-block-card-price">от 2599&#8381;</p>
+               </div>
+            </div>
+         </div>
+         <!-- Add Pagination -->
+         <div class="swiper-pagination"></div>
+      </div>
+   </section>
+   <!-- /.first-block -->
+   <section class="catalog wrapper" id="catalog">
+      <div class="section-header">
+         <h2 class="section-title">Каталог</h2>
+         <nav class="catalog-nav">
+            <ul class="catalog-nav-links">
+               <li class="catalog-nav-item"><a href="#" class="catalog-nav-link">Букеты в коробках</a></li>
+               <li class="catalog-nav-item"><a href="#" class="catalog-nav-link">Экзотические букеты</a></li>
+               <li class="catalog-nav-item"><a href="#" class="catalog-nav-link">Свадебные букеты</a></li>
+            </ul>
+         </nav>
+      </div>
+      <!-- Swiper -->
+      <div class="swiper-container catalog-slider dekstop-catalog-slider">
+         <div class="swiper-wrapper catalog-cards">
+            <div class="swiper-slide catalog-card card">
+               <h3 class="card-title">Букет “Прелесть”</h3>
+               <div class="card-img">
+                  <img src="img/card-img-1.jpg" alt="card-img">
+               </div>
+               <div class="card-price">2590&#8381;</div>
+               <div class="card-buttons">
+                  <button type="button" class="card-button card-basket">
+                     <svg class="icon basket-icon">
+                        <use xlink:href="img/icons.svg#shopping-cart"></use>
+                     </svg>
+                     в корзину
+                  </button>
+                  <button type="button" class="card-button card-like">
+                     <svg class="icon heart-icon">
+                        <use xlink:href="img/icons.svg#heart"></use>
+                     </svg>
+                  </button>
+                  <button type="button" class="card-button card-filter">
+                     <svg class="icon filter-icon">
+                        <use xlink:href="img/icons.svg#filter"></use>
+                     </svg>
+                  </button>
+               </div>
+            </div>
+            <div class="swiper-slide catalog-card card">
+               <h3 class="card-title">Букет “Единственная”</h3>
+               <div class="card-img">
+                  <img src="img/card-img-2.jpg" alt="card-img">
+               </div>
+               <div class="card-price">3199&#8381;</div>
+               <div class="card-buttons">
+                  <button type="button" class="card-button card-basket">
+                     <svg class="icon basket-icon">
+                        <use xlink:href="img/icons.svg#shopping-cart"></use>
+                     </svg>
+                     в корзину
+                  </button>
+                  <button type="button" class="card-button card-like">
+                     <svg class="icon heart-icon">
+                        <use xlink:href="img/icons.svg#heart"></use>
+                     </svg>
+                  </button>
+                  <button type="button" class="card-button card-filter">
+                     <svg class="icon filter-icon">
+                        <use xlink:href="img/icons.svg#filter"></use>
+                     </svg>
+                  </button>
+               </div>
+            </div>
+            <div class="swiper-slide catalog-card card">
+               <h3 class="card-title">Букет “Амур”</h3>
+               <div class="card-img">
+                  <img src="img/card-img-3.jpg" alt="card-img">
+               </div>
+               <div class="card-price">2599&#8381;</div>
+               <div class="card-buttons">
+                  <button type="button" class="card-button card-basket">
+                     <svg class="icon basket-icon">
+                        <use xlink:href="img/icons.svg#shopping-cart"></use>
+                     </svg>
+                     в корзину
+                  </button>
+                  <button type="button" class="card-button card-like">
+                     <svg class="icon heart-icon">
+                        <use xlink:href="img/icons.svg#heart"></use>
+                     </svg>
+                  </button>
+                  <button type="button" class="card-button card-filter">
+                     <svg class="icon filter-icon">
+                        <use xlink:href="img/icons.svg#filter"></use>
+                     </svg>
+                  </button>
+               </div>
+            </div>
+            <div class="swiper-slide catalog-card card">
+               <h3 class="card-title">Букет “Ноты любви”</h3>
+               <div class="card-img">
+                  <img src="img/card-img-4.jpg" alt="card-img">
+               </div>
+               <div class="card-price">2799&#8381;</div>
+               <div class="card-buttons">
+                  <button type="button" class="card-button card-basket">
+                     <svg class="icon basket-icon">
+                        <use xlink:href="img/icons.svg#shopping-cart"></use>
+                     </svg>
+                     в корзину
+                  </button>
+                  <button type="button" class="card-button card-like">
+                     <svg class="icon heart-icon">
+                        <use xlink:href="img/icons.svg#heart"></use>
+                     </svg>
+                  </button>
+                  <button type="button" class="card-button card-filter">
+                     <svg class="icon filter-icon">
+                        <use xlink:href="img/icons.svg#filter"></use>
+                     </svg>
+                  </button>
+               </div>
+            </div>
+            <div class="swiper-slide catalog-card card">
+               <h3 class="card-title">Букет “Прелесть”</h3>
+               <div class="card-img">
+                  <img src="img/card-img-1.jpg" alt="card-img">
+               </div>
+               <div class="card-price">2590&#8381;</div>
+               <div class="card-buttons">
+                  <button type="button" class="card-button card-basket">
+                     <svg class="icon basket-icon">
+                        <use xlink:href="img/icons.svg#shopping-cart"></use>
+                     </svg>
+                     в корзину
+                  </button>
+                  <button type="button" class="card-button card-like">
+                     <svg class="icon heart-icon">
+                        <use xlink:href="img/icons.svg#heart"></use>
+                     </svg>
+                  </button>
+                  <button type="button" class="card-button card-filter">
+                     <svg class="icon filter-icon">
+                        <use xlink:href="img/icons.svg#filter"></use>
+                     </svg>
+                  </button>
+               </div>
+            </div>
+            <div class="swiper-slide catalog-card card">
+               <h3 class="card-title">Букет “Амур”</h3>
+               <div class="card-img">
+                  <img src="img/card-img-3.jpg" alt="card-img">
+               </div>
+               <div class="card-price">2599&#8381;</div>
+               <div class="card-buttons">
+                  <button type="button" class="card-button card-basket">
+                     <svg class="icon basket-icon">
+                        <use xlink:href="img/icons.svg#shopping-cart"></use>
+                     </svg>
+                     в корзину
+                  </button>
+                  <button type="button" class="card-button card-like">
+                     <svg class="icon heart-icon">
+                        <use xlink:href="img/icons.svg#heart"></use>
+                     </svg>
+                  </button>
+                  <button type="button" class="card-button card-filter">
+                     <svg class="icon filter-icon">
+                        <use xlink:href="img/icons.svg#filter"></use>
+                     </svg>
+                  </button>
+               </div>
+            </div>
+         </div>
+         <!-- Add Arrows -->
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+         <!-- Add Scrollbar -->
+         <div class="swiper-scrollbar"></div>
+      </div>
+   </section>
+   <!-- /.catalog -->
+   <section class="shares wrapper" id="shares">
+      <div class="shares-container">
+         <div class="shares-1">
+            <h2 class="shares-title">Весь ноябрь</h2>
+            <p class="shares-description-1">Скидка 10% на все готовые букеты </p>
+         </div>
+         <div class="shares-2">
+            <p class="shares-description-2">Бесплатная доставка цветов от 4699&#8381; </p>
+         </div>
+      </div>
+   </section>
+   <section class="best-deals wrapper" id="best">
+      <h2 class="section-title">Лучшие предложения</h2>
+      <div class="best-deals-cards">
+         <div class="best-deals-card card">
+            <h3 class="card-title">Букет “Мечта поэта”</h3>
+            <div class="card-img">
+               <img src="img/deals-img-1.jpg" alt="card-img">
+            </div>
+            <div class="card-price">4599&#8381;</div>
+            <div class="card-buttons">
+               <button type="button" class="card-button card-basket">
+                  <svg class="icon basket-icon">
+                     <use xlink:href="img/icons.svg#shopping-cart"></use>
+                  </svg>
+                  в корзину
+               </button>
+               <button type="button" class="card-button card-like">
+                  <svg class="icon heart-icon">
+                     <use xlink:href="img/icons.svg#heart"></use>
+                  </svg>
+               </button>
+               <button type="button" class="card-button card-filter">
+                  <svg class="icon filter-icon">
+                     <use xlink:href="img/icons.svg#filter"></use>
+                  </svg>
+               </button>
+            </div>
+         </div>
+         <div class="best-deals-card card">
+            <h3 class="card-title">Букет “Муза”</h3>
+            <div class="card-img">
+               <img src="img/deals-img-2.jpg" alt="card-img">
+            </div>
+            <div class="card-price">2799&#8381;</div>
+            <div class="card-buttons">
+               <button type="button" class="card-button card-basket">
+                  <svg class="icon basket-icon">
+                     <use xlink:href="img/icons.svg#shopping-cart"></use>
+                  </svg>
+                  в корзину
+               </button>
+               <button type="button" class="card-button card-like">
+                  <svg class="icon heart-icon">
+                     <use xlink:href="img/icons.svg#heart"></use>
+                  </svg>
+               </button>
+               <button type="button" class="card-button card-filter">
+                  <svg class="icon filter-icon">
+                     <use xlink:href="img/icons.svg#filter"></use>
+                  </svg>
+               </button>
+            </div>
+         </div>
+         <div class="best-deals-card card">
+            <h3 class="card-title">Букет “Мелодия”</h3>
+            <div class="card-img">
+               <img src="img/deals-img-3.jpg" alt="card-img">
+            </div>
+            <div class="card-price">6599&#8381;</div>
+            <div class="card-buttons">
+               <button type="button" class="card-button card-basket">
+                  <svg class="icon basket-icon">
+                     <use xlink:href="img/icons.svg#shopping-cart"></use>
+                  </svg>
+                  в корзину
+               </button>
+               <button type="button" class="card-button card-like">
+                  <svg class="icon heart-icon">
+                     <use xlink:href="img/icons.svg#heart"></use>
+                  </svg>
+               </button>
+               <button type="button" class="card-button card-filter">
+                  <svg class="icon filter-icon">
+                     <use xlink:href="img/icons.svg#filter"></use>
+                  </svg>
+               </button>
+            </div>
+         </div>
+         <div class="best-deals-card card">
+            <h3 class="card-title">Букет “Эйфория”</h3>
+            <div class="card-img">
+               <img src="img/deals-img-4.jpg" alt="card-img">
+            </div>
+            <div class="card-price">5299&#8381;</div>
+            <div class="card-buttons">
+               <button type="button" class="card-button card-basket">
+                  <svg class="icon basket-icon">
+                     <use xlink:href="img/icons.svg#shopping-cart"></use>
+                  </svg>
+                  в корзину
+               </button>
+               <button type="button" class="card-button card-like">
+                  <svg class="icon heart-icon">
+                     <use xlink:href="img/icons.svg#heart"></use>
+                  </svg>
+               </button>
+               <button type="button" class="card-button card-filter">
+                  <svg class="icon filter-icon">
+                     <use xlink:href="img/icons.svg#filter"></use>
+                  </svg>
+               </button>
+            </div>
+         </div>
+         <div class="best-deals-card card">
+            <h3 class="card-title">Букет “Валенсия”</h3>
+            <div class="card-img">
+               <img src="img/deals-img-5.jpg" alt="card-img">
+            </div>
+            <div class="card-price">4899&#8381;</div>
+            <div class="card-buttons">
+               <button type="button" class="card-button card-basket">
+                  <svg class="icon basket-icon">
+                     <use xlink:href="img/icons.svg#shopping-cart"></use>
+                  </svg>
+                  в корзину
+               </button>
+               <button type="button" class="card-button card-like">
+                  <svg class="icon heart-icon">
+                     <use xlink:href="img/icons.svg#heart"></use>
+                  </svg>
+               </button>
+               <button type="button" class="card-button card-filter">
+                  <svg class="icon filter-icon">
+                     <use xlink:href="img/icons.svg#filter"></use>
+                  </svg>
+               </button>
+            </div>
+         </div>
+         <div class="best-deals-card card">
+            <h3 class="card-title">Букет “Яркая улыбка”</h3>
+            <div class="card-img">
+               <img src="img/deals-img-6.jpg" alt="card-img">
+            </div>
+            <div class="card-price">4199&#8381;</div>
+            <div class="card-buttons">
+               <button type="button" class="card-button card-basket">
+                  <svg class="icon basket-icon">
+                     <use xlink:href="img/icons.svg#shopping-cart"></use>
+                  </svg>
+                  в корзину
+               </button>
+               <button type="button" class="card-button card-like">
+                  <svg class="icon heart-icon">
+                     <use xlink:href="img/icons.svg#heart"></use>
+                  </svg>
+               </button>
+               <button type="button" class="card-button card-filter">
+                  <svg class="icon filter-icon">
+                     <use xlink:href="img/icons.svg#filter"></use>
+                  </svg>
+               </button>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- /.best-deals wrapper -->
+   <section class="statistics wrapper" id="we">
+      <h2 class="statistics-title">О Лавке цветов в цифрах</h2>
+      <div class="statistics-items">
+         <div class="statistics-item">
+            <div class="statistics-numeral">10000</div>
+            <p class="statistics-description">Покупателей</p>
+         </div>
+         <div class="statistics-item">
+            <div class="statistics-numeral">11</div>
+            <p class="statistics-description">Филиалов по всей России</p>
+         </div>
+         <div class="statistics-item">
+            <div class="statistics-numeral">98</div>
+            <p class="statistics-description">Видов цветов</p>
+         </div>
+         <div class="statistics-item">
+            <div class="statistics-numeral">2</div>
+            <p class="statistics-description">Часа доставка по городу</p>
+         </div>
+      </div>
+   </section>
+   <!-- /.statistics wrapper -->
+   <footer class="footer">
+      <div class="wrapper">
+         <div class="footer-body">
+            <a href="#" class="logo  footer-logo">
+               <svg class="icon logo-icon">
+                  <use xlink:href="img/icons.svg#logo"></use>
+               </svg>
+            </a>
+            <nav class="footer-nav">
+               <ul class="footer-links">
+                  <li class="footer-item"><a href="#" class="footer-link">Каталог</a></li>
+                  <li class="footer-item"><a href="#" class="footer-link">Акции</a></li>
+                  <li class="footer-item"><a href="#" class="footer-link">Лучшее</a></li>
+                  <li class="footer-item"><a href="#" class="footer-link">Мы</a></li>
+               </ul>
+            </nav>
+            <div class="back-to-top">
+               <a href="#" class="arrow-up">
+                  <svg class="icon arrow-up-icon">
+                     <use xlink:href="img/icons.svg#arrowUp"></use>
+                  </svg>
+               </a>
+            </div>
+            <!-- /.back to top -->
+            <div class="our-phone footer-our-phone">+7(980)757-55-75</div>
+            <button type="button" class="button button-phone footer-button-phone">
+               <span class="button-text footer-button-text">Заказать звонок</span>
+            </button>
+         </div>
+      </div>
+   </footer>
+   <!-- /.footer -->
+
+
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script src="js/script.js"></script>
+   <!-- /scripts -->
+
+
+</body>
+
+</html>
